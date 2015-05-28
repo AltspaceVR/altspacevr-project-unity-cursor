@@ -52,11 +52,11 @@ Here are the defining features of the cursor algorithm that you should replicate
 
 - Sensitivity of the cursor to mouse movement should be adjustable via the `Sensitivity` property on the script.
 
-For this part of the project, please **do not** include 3rd party code. You can reference 3rd party code of course, but any code you write for the cursor should be your own.
+For this part of the project, please **do not** include 3rd party code. You can reference 3rd party code of course, but any code you write for the cursor should be your own. (We'll be asking you how it works!)
 
 # Part 2 - Enhancements (5-10 hours)
 
-Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills. This is an open ended part of the project, and is your chance to blow us away! 
+Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills and creativity. This is the open ended part of the project, and is your chance to blow us away! 
 
 Some potential ideas:
 
