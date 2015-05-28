@@ -1,4 +1,4 @@
-# Altspace Programming Project - Unity Cursor
+# AltspaceVR Programming Project - Unity Cursor
 
 ## Instructions
 
