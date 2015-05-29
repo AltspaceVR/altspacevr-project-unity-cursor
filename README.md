@@ -16,7 +16,7 @@ We use this test to get a sense of your coding style and to how you creatively s
 
 - Is the code well structured, easy to read and understand, and organized well?
 
-This project should take approximately 5-15 hours to complete, and should be completed within a week of forking this repo. To work on the project:
+This project should take approximately 5-15 hours to complete. To work on the project:
 
 - Fork and clone the repo.
 - Open up the Unity project in `Project`, and work there. This project was built in Unity 4.6, so if you are using Unity 5 you may need to migrate the project or [download and install 4.6](https://unity3d.com/get-unity/download/archive).
