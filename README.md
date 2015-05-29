@@ -60,17 +60,17 @@ Now that you have a working cursor, and can point at and select objects, now bui
 
 Some potential ideas:
 
-- Let the user click and drag to move objects around, and add multiplayer support to let several people move objects in the room together.
+- Use the cursor to manipulate objects, and add multiplayer!
 
-- Improve the cursor to be more usable: for example, if the user drags it out of view, it should do something better than just disappear off-screen. 
+- Improve the cursor to be more usable.
 
 - Add some custom shaders, behaviors, or effects to objects to show off your graphics chops.
 
-- Add a control scheme or widgets that let the user manipulate or spawn objects.
+- Add a control scheme or widgets that let the user do stuff with objects.
 
-- Create some kind of interactive game that uses the cursor.
+- Create some kind of interactive game.
 
-- Anything you want! Don’t feel limited by the sample scene, feel free to create a new scene and leverage your cursor code in some novel way.
+- Anything you want! Got some new Unity technique you want to try? Use this as an excuse! Don’t feel limited by the sample scene, feel free to create a new scene and leverage your cursor code in some novel way.
 
 Feel free to use 3rd party code or assets for this part of the project, keeping in mind our assessment criteria (noted at the top of the README.)
 
