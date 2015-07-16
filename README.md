@@ -16,12 +16,12 @@ We use this test to get a sense of your coding style and to how you creatively s
 
 - Is the code well structured, easy to read and understand, and organized well?
 
-This project should take approximately 5-15 hours to complete. To work on the project:
+To work on the project:
 
 - Fork and clone the repo.
 - Open up the Unity project in `Project`, and work there. This project was built in Unity 4.6, so if you are using Unity 5 you may need to migrate the project or [download and install 4.6](https://unity3d.com/get-unity/download/archive).
 
-# Part 1 - 3D Cursor (3-5 hours)
+# Part 1 - 3D Cursor
 
 If you’ve tried AltspaceVR, you’ll have noticed that our user interface uses a 3D cursor. This cursor approach allows the user to select objects in the scene, or interact with 2D web panels. For this part of the project, you’ll be implementing a variant of the 3D cursor algorithm we’ve developed for AltspaceVR. You can find an example build showing the expected behavior in the `Builds` folder of the repo.
 
@@ -54,7 +54,7 @@ Here are the defining features of the cursor algorithm that you should replicate
 
 For this part of the project, please **do not** include 3rd party code. You can reference 3rd party code of course, but any code you write for the cursor should be your own. (We'll be asking you how it works!)
 
-# Part 2 - Enhancements (5-10 hours)
+# Part 2 - Enhancements
 
 Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills and creativity. This is the open ended part of the project, and is your chance to blow us away! 
 
