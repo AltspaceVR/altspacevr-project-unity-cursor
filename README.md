@@ -33,7 +33,7 @@ The cursor is represented by a sphere, found in the GameObject `CursorMesh` unde
 
 Here are the defining features of the cursor algorithm that you should replicate:
 
-- The state of the cursor is represented as spherical coordinates on a sphere surrounding the player. So, as the user moves their mouse, you should be updating the coordinates of the cursor in this space.
+- The position of the cursor is stored as spherical coordinates on a sphere surrounding the player. As the user moves their mouse, you should be updating and storing the coordinates of the cursor in this spherical coordinate space, not in 2D screen space.
 
 - Each frame, a raycast from the eye is made based on the spherical coordinates, against objects in a layer mask of all the selectable objects in the scene. It this project, layer #8 contains all the objects. The proper raycast mask is defined for you in the `ColliderMask` field in the code. (Note that this scene just has simple box colliders, so your actual collision points may not lie on the objects' surfaces.)
   - If there is no collision, the cursor geometry should be scaled to the DefaultCursorScale and positioned on the surface of a large virtual sphere of radius SphereRadius surrounding the player.
