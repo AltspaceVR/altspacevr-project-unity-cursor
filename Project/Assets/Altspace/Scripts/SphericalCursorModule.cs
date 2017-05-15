@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class SphericalCursorModule : MonoBehaviour {
 	// This is a sensitivity parameter that should adjust how sensitive the mouse control is.
@@ -6,7 +6,7 @@ public class SphericalCursorModule : MonoBehaviour {
 
 	// This is a scale factor that determines how much to scale down the cursor based on its collision distance.
 	public float DistanceScaleFactor;
-	
+
 	// This is the layer mask to use when performing the ray cast for the objects.
 	// The furniture in the room is in layer 8, everything else is not.
 	private const int ColliderMask = (1 << 8);
@@ -29,8 +29,8 @@ public class SphericalCursorModule : MonoBehaviour {
     void Awake() {
 		Cursor = transform.Find("Cursor").gameObject;
 		CursorMeshRenderer = Cursor.transform.GetComponentInChildren<MeshRenderer>();
-        CursorMeshRenderer.renderer.material.color = new Color(0.0f, 0.8f, 1.0f);
-    }	
+		CursorMeshRenderer.material.color = new Color(0.0f, 0.8f, 1.0f);
+    }
 
 	void Update()
 	{

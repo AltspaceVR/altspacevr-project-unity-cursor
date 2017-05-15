@@ -19,7 +19,7 @@ We use this test to get a sense of your coding style and to how you creatively s
 To work on the project:
 
 - Fork and clone the repo.
-- Open up the Unity project in `Project`, and work there. This project was built in Unity 4.6, so if you are using Unity 5 you may need to migrate the project or [download and install 4.6](https://unity3d.com/get-unity/download/archive).
+- Open up the Unity project in `Project`, and work there. This project was built in Unity 5.6.0f3.
 
 # Part 1 - 3D Cursor
 
@@ -56,7 +56,7 @@ For this part of the project, please **do not** include 3rd party code. You can 
 
 # Part 2 - Enhancements
 
-Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills and creativity. This is the open ended part of the project, and is your chance to blow us away! 
+Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills and creativity. This is the open ended part of the project, and is your chance to blow us away!
 
 Some potential ideas:
 
@@ -80,14 +80,12 @@ In your repo, you should clobber this README file with your own describing your 
 
 **Please be sure to commit a working build to your repo**, just in case we have trouble getting your project to build.
 
-E-mail us a link to your Github repo to `project@altvr.com`. Please include your contact information, and if you haven't submitted it to us already, your resume and cover letter. 
+E-mail us a link to your Github repo to `project@altvr.com`. Please include your contact information, and if you haven't submitted it to us already, your resume and cover letter.
 
 We hope you have fun working on the project, and we can't wait to see what you come up with!
-    
+
 [The AltspaceVR Team](http://altvr.com/team/)
-    
+
 ##Acknowledgements
 
 *Assets used in this project are from* [Free Furniture Props](https://www.assetstore.unity3d.com/en/#!/content/8822)
-
-
