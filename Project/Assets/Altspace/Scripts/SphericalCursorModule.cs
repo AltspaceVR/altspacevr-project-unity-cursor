@@ -14,6 +14,9 @@ public class SphericalCursorModule : MonoBehaviour {
 	// This is the Cursor game object. Your job is to update its transform on each frame.
 	private GameObject Cursor;
 
+	// The current location of the cursor on a virtual sphere surrounding the player.
+	private SphericalPoint CursorLocation;
+
 	// This is the Cursor mesh. (The sphere.)
 	private MeshRenderer CursorMeshRenderer;
 
@@ -26,19 +29,29 @@ public class SphericalCursorModule : MonoBehaviour {
 	// Sphere radius to project cursor onto if no raycast hit.
 	private const float SphereRadius = 1000.0f;
 
-    void Awake() {
+    private void Awake() {
 		Cursor = transform.Find("Cursor").gameObject;
 		CursorMeshRenderer = Cursor.transform.GetComponentInChildren<MeshRenderer>();
 		CursorMeshRenderer.material.color = new Color(0.0f, 0.8f, 1.0f);
     }
 
-	void Update()
+	/// <summary>
+	/// Updates this transform to be positioned at the given location.
+	/// </summary>
+	private void SetPosition(Transform transform, SphericalPoint location)
 	{
-		// TODO: Handle mouse movement to update cursor position.
+		// TODO: Implement this.
+	}
 
+	private void Update()
+	{
+		// TODO: Handle mouse movement to update CursorLocation.
 		// TODO: Perform ray cast to find object cursor is pointing at.
-		// TODO: Update cursor transform.
+
 		var cursorHit = new RaycastHit();/* Your cursor hit code should set this properly. */;
+
+		// Update position of the cursor to be the new computed position.
+		SetPosition(Cursor.transform, CursorLocation);
 
 		// Update highlighted object based upon the raycast.
 		if (cursorHit.collider != null)
